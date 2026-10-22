@@ -1,0 +1,1 @@
+{"protocol_version":1,"game":"clue","observation":{"me":0,"hand_sizes":[6,6,6],"own_hand":["scarlet","mustard","candlestick","knife","kitchen","ballroom"],"reachable_rooms":["study"],"history":[]},"limits":{"time_ms":250,"samples":32},"seed":7}

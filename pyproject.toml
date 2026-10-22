@@ -1,0 +1,16 @@
+[project]
+name = "board-game-challenge-agents"
+version = "0.1.0"
+description = "Offline strategy agents and reproducible local evaluation for three board games"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+board-agent = "agents.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["agents*"]
